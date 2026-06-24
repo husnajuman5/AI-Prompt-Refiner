@@ -6,6 +6,13 @@ it takes a vague, under-specified draft prompt and automatically rewrites it
 and specificity) in a loop, scoring each candidate output, until a target
 quality threshold is reached or a maximum number of attempts is used up.
 
+## Features
+
+- Iterative prompt refinement
+- Quality evaluation
+- Dataset benchmarking
+- Mock and real model support
+
 ## Project Structure
 
 ```
