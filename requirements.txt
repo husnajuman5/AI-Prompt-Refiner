@@ -1,0 +1,6 @@
+scikit-learn>=1.3
+pytest>=7.0
+
+# Optional - only needed if you swap MockGenerativeModel for a real backend:
+# openai>=1.0
+# anthropic>=0.34
