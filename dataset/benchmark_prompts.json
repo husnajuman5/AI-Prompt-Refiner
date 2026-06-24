@@ -1,0 +1,57 @@
+[
+  {
+    "task_type": "summarization",
+    "raw_prompt": "Summarize this article.",
+    "criteria": {
+      "max_words": 120,
+      "required_keywords": ["summary", "key", "point", "article"],
+      "reference_text": "A concise neutral-tone summary covering the three key points of the article in under 120 words."
+    },
+    "quality_threshold": 0.6,
+    "max_iterations": 5
+  },
+  {
+    "task_type": "code-generation",
+    "raw_prompt": "Write code to sort a list.",
+    "criteria": {
+      "required_format": "bullets",
+      "required_keywords": ["sort", "list", "function"],
+      "reference_text": "Working, documented code that sorts a list efficiently, with a clear function definition and docstring."
+    },
+    "quality_threshold": 0.6,
+    "max_iterations": 5
+  },
+  {
+    "task_type": "qa",
+    "raw_prompt": "What caused the issue?",
+    "criteria": {
+      "required_keywords": ["cause", "issue", "because"],
+      "reference_text": "A specific, well-reasoned explanation of the root cause without fabricated facts, citing the relevant source."
+    },
+    "quality_threshold": 0.6,
+    "max_iterations": 5
+  },
+  {
+    "task_type": "creative-writing",
+    "raw_prompt": "Write a short story.",
+    "criteria": {
+      "min_words": 40,
+      "max_words": 400,
+      "required_keywords": ["story", "character"],
+      "reference_text": "A short story between 150 and 300 words with a defined genre, consistent tone, and a clear narrative arc."
+    },
+    "quality_threshold": 0.6,
+    "max_iterations": 5
+  },
+  {
+    "task_type": "data-extraction",
+    "raw_prompt": "Pull the key fields from this text.",
+    "criteria": {
+      "required_format": "json",
+      "required_keywords": ["field", "value"],
+      "reference_text": "Valid JSON output containing all required fields with correctly typed values, no missing keys."
+    },
+    "quality_threshold": 0.6,
+    "max_iterations": 5
+  }
+]
