@@ -112,3 +112,36 @@ each only fires if that element isn't already present in the prompt.
 **Required libraries:** `scikit-learn` (TF-IDF + cosine similarity for
 semantic scoring), `re`, `json`, `time` (standard library). Real-model
 mode optionally uses `openai` or `anthropic`.
+
+## Output Screenshots
+
+### Single Prompt Refinement
+
+<img width="932" height="428" alt="Screenshot 2026-06-24 114551" src="https://github.com/user-attachments/assets/c6634114-7e3d-4ebf-a2fa-745b9706704d" />
+
+
+---
+
+### Batch Validation Across Benchmark Dataset
+
+<img width="709" height="236" alt="Screenshot 2026-06-24 114600" src="https://github.com/user-attachments/assets/78092911-eee3-4463-af6c-6f7824959331" />
+
+
+---
+
+## Sample Results
+
+### Single Prompt Refinement
+
+* Raw prompt analysis
+* Iterative refinement process
+* Quality score generation
+* Refined prompt output
+
+### Benchmark Validation
+
+* Multiple task evaluation
+* Iteration tracking
+* Average quality score calculation
+* Comparative performance analysis
+
